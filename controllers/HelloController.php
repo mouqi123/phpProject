@@ -17,8 +17,7 @@ class HelloController extends Controller
 
     public function actionHello()
     {
-        \Yii::info("mouqi is an idiot");
-        echo 'sb...........';
+        var_dump(json_encode(\Yii::$aliases));
     }
     public function actionInsert()
     {

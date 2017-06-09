@@ -48,14 +48,14 @@ return [
                 //'exportInterval' => 1,
             ],
 
-            'email' => [
-                'class' => 'yii\log\EmailTarget',
-                'mailer' => 'mailer',
-                'except' => ['yii\web\HttpException:404'],
-                'levels' => ['info', 'error', 'warning'],
-                'logVars' => [],
-                'message' => ['from' => 'mq_cd520@sina.com', 'to' => 'mouqi562315905@qq.com'],
-            ],
+            //'email' => [
+            //    'class' => 'yii\log\EmailTarget',
+            //    'mailer' => 'mailer',
+            //    'except' => ['yii\web\HttpException:404'],
+            //    'levels' => ['info', 'error', 'warning'],
+            //    'logVars' => [],
+            //    'message' => ['from' => 'mq_cd520@sina.com', 'to' => 'mouqi562315905@qq.com'],
+            //],
         ],
     ],
     'db' => $db,
